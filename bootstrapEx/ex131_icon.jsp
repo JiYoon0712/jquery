@@ -34,7 +34,15 @@ textarea:focus, input:focus { outline: none; }
 	
 <main>
 	<div class="container mb-2 pt-3">
-
+		<p> <i class="bi bi-bookmark-heart"></i> </p>
+		<p> <i class="bi bi-bookmark-heart-fill"></i> </p>
+		<p> <i class="bi bi-cloud-rain-heavy"></i> </p>
+		<p> <i class="bi bi-emoji-dizzy"></i> </p>
+		<p> <i class="bi bi-emoji-smile-upside-down"></i> </p>
+		<p> <i class="bi bi-github"></i> </p>
+		<p> <i class="bi bi-shop"></i> </p>
+		<p> <i class="bi bi-emoji-sunglasses"></i> </p>
+		<p> <i class="bi bi-emoji-dizzy-fill"></i> </p>
 	</div>
 
 </main>

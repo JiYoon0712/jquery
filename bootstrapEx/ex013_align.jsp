@@ -46,13 +46,13 @@ textarea:focus, input:focus { outline: none; }
 		<div class="box">
 			<p> 문자열 정렬 </p>
 			<div class="row">
-				<div class="col border bg-light p-3 ">
+				<div class="col border bg-light p-3 text-start">
 					왼쪽
 				</div>
-				<div class="col border bg-light p-3 ">
+				<div class="col border bg-light p-3 text-center">
 					가운데
 				</div>
-				<div class="col border bg-light p-3 ">
+				<div class="col border bg-light p-3 text-end">
 					오른쪽
 				</div>
 			</div>

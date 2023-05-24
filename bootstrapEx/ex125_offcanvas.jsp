@@ -45,6 +45,30 @@ textarea:focus, input:focus { outline: none; }
 	</div>
 </main>
 
+<div class="offcanvas offcanvas-start" tabindex="-1" id="myOffcanvas" aria-labelledby="offcanvasLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasLabel">상품 검색</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  
+  <div class="offcanvas-body">
+  	<div>
+  		상품을 검색합니다.
+  	</div>
+  	
+  	<div class="dropdown">
+	  <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+	    선택
+	  </button>
+	  <ul class="dropdown-menu">
+	    <li><a class="dropdown-item" href="#">아동용</a></li>
+	    <li><a class="dropdown-item" href="#">남성용</a></li>
+	    <li><a class="dropdown-item" href="#">여성용</a></li>
+	  </ul>
+	</div>
+  </div>
+</div>
+
 
 <footer>
 </footer>

@@ -24,8 +24,23 @@ textarea:focus, input:focus { outline: none; }
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 
 <script type="text/javascript">
+$(function(){
+	$(".btnClose").click(function(){
+		$("#myDialogModal2").modal("hide");
+	}); 
+});
 
+$(function(){
+	$(".btnDialog3").click(function(){
+		$("#myDialogModal3").modal("show");		
+	});
+});
 
+$(function(){
+	$(".btnDialog4").click(function(){
+		$("#myDialogModal4").modal("show");		
+	});
+});
 </script>
 </head>
 <body>
@@ -39,7 +54,7 @@ textarea:focus, input:focus { outline: none; }
 <main>
 	<div class="container-fluid mb-2 p-2">
 		<button type="button" class="btn btn-primary"
-			data-bs-toggle="modal" data-bs-target="#myDialogModal">대화상자</button>
+			data-bs-toggle="modal" data-bs-target="#myDialogModal">대화상자</button>	<!-- data-bs-target의 아이디 일치해야 함. -->
 		<button type="button" class="btn btn-primary"
 			data-bs-toggle="modal" data-bs-target="#myDialogModal2">대화상자 2</button>
 		<button type="button" class="btn btn-primary btnDialog3">대화상자 3</button>

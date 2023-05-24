@@ -20,11 +20,57 @@ body { font-size: 14px; font-family: "Malgun Gothic", "맑은 고딕", NanumGoth
 textarea:focus, input:focus { outline: none; }
 </style>
 
+<style type="text/css">
+.nav-tabs .nav-link{
+	min-width: 170px;
+	background: #f3f5f7;
+	border-radius: 0;
+	border-right: 1px solid #dbdddf;
+	color: #333333;
+	font-weight: 600;
+}
+
+.nav-tabs .nav-link.active{
+	background: #3d3d4f;
+	color: #ffffff;
+}
+
+.tab-pane {
+	padding: 5px;
+	min-height: 300px;
+}
+
+</style>
+
 <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 
 <script type="text/javascript">
-
+$(function(){
+	$("#nav-1").load("ex.jsp");	// 실행과 동시에 서버로 AJAX로 출력할 내용 가져오기
+	
+	// 탭을 클릭할 경우
+	$("button[role='tab']").on("click", function(){
+		const tab = $(this).attr("aria-controls");
+		let selector = "#nav-" + tab;
+		
+		let url = "ex.jsp";
+		if(tab === "1"){
+			url = "ex.jsp";
+		} else if(tab === "2"){
+			url = "ex2.jsp";
+		} else if(tab === "3"){
+			url = "ex3.jsp";
+		}
+		
+		$(selector).load(url);	// AJAX로 각 주소별로 서버에서 출력할 내용 가져오기
+	});
+	
+	$("button[role='tab']").on("show.bs.tab", function(){
+		// 탭이 변경될때 마다 실행
+		const tab = $(this).attr("aria-controls");
+	});
+});
 </script>
 </head>
 <body>

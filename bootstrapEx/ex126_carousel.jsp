@@ -39,8 +39,47 @@ textarea:focus, input:focus { outline: none; }
 	
 	<div class="container mb-2 pt-3">
 	
-	
-	
+		<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+		 
+		  <div class="carousel-indicators">
+		    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="첫번째 이미지"></button>
+		    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+		    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+   		  </div>
+   		  
+   		  <div class="carousel-inner">
+   		  	<div class="carousel-item active">
+   		  		<img src="img/1.jpg" class="d-block w-100">
+   		  		<div class="carousel-caption d-none d-md-block">
+   		  			<h5>첫번째 이미지</h5>
+   		  		</div>
+   		  	</div>
+   		  	
+   		  	<div class="carousel-item">
+   		  		<img src="img/2.jpg" class="d-block w-100">
+   		  		<div class="carousel-caption d-none d-md-block">
+   		  			<h5>두번째 이미지</h5>
+   		  		</div>
+   		  	</div>
+   		  	
+   		  	<div class="carousel-item">
+   		  		<img src="img/3.jpg" class="d-block w-100">
+   		  		<div class="carousel-caption d-none d-md-block">
+   		  			<h5>세번째 이미지</h5>
+   		  		</div>
+   		  	</div>
+   		  </div>
+   		  
+   		  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+		    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		    <span class="visually-hidden">Previous</span>
+		  </button>
+		  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+		    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+		    <span class="visually-hidden">Next</span>
+		  </button>
+		</div>
+		
 	</div>
 </main>
 

@@ -70,13 +70,41 @@ textarea:focus, input:focus { outline: none; }
 		<div class="box">
 			<p> 수직 거터 </p>
 
-
+			<div class="row gy-6">
+				<div class="col-6 text-center">
+					<div class="border bg-light p-3">A</div>
+				</div>
+				<div class="col-6 text-center">
+					<div class="border bg-light p-3">B</div>
+				</div>
+				<div class="col-6 text-center">
+					<div class="border bg-light p-3">C</div>
+				</div>
+				<div class="col-6 text-center">
+					<div class="border bg-light p-3">D</div>
+				</div>
+			</div>
+			
 	  	</div>
 		<hr>
 		
 		<div class="box">
 			<p> 수평 / 수직 거터 </p>
-
+			
+			<div class="row g-2">
+				<div class="col-6 text-center">
+					<div class="border bg-light p-3">A</div>
+				</div>
+				<div class="col-6 text-center">
+					<div class="border bg-light p-3">B</div>
+				</div>
+				<div class="col-6 text-center">
+					<div class="border bg-light p-3">C</div>
+				</div>
+				<div class="col-6 text-center">
+					<div class="border bg-light p-3">D</div>
+				</div>
+			</div>
 
 	  	</div>
 

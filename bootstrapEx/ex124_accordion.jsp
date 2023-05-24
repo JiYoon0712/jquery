@@ -35,6 +35,36 @@ textarea:focus, input:focus { outline: none; }
 <main>
 	<div class="container mb-2 pt-3">
 	
+		<div class="accordion" id="accordionExample">
+		
+		  	<div class="accordion-item">
+			    <h2 class="accordion-header" id="heading-1">
+			      <button class="accordion-button bg-light collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-1" aria-expanded="false" aria-controls="collapse-1">
+			        자바란 ?
+			      </button>
+			    </h2>
+			    <div id="collapse-1" class="accordion-collapse collapse" aria-labelledby="heading-1" data-bs-parent="#accordionExample">
+			      <div class="accordion-body">
+			      	<p> 자바는 ... </p>
+			      </div>
+		 	    </div>
+		  	</div>
+		  	
+		  	<div class="accordion-item">
+			    <h2 class="accordion-header" id="heading-2">
+			      <button class="accordion-button bg-light collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-2" aria-expanded="false" aria-controls="collapse-2">
+			        웹 프로그래밍은 ?
+			      </button>
+			    </h2>
+			    <div id="collapse-2" class="accordion-collapse collapse" aria-labelledby="heading-2" data-bs-parent="#accordionExample">
+			      <div class="accordion-body">
+			      	<p> 웹 프로그래밍은 ... </p>
+			      </div>
+		 	    </div>
+		  	</div>
+		  	
+		  	
+		</div>
 
 	</div>
 </main>

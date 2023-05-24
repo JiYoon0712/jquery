@@ -44,7 +44,7 @@ textarea:focus, input:focus { outline: none; }
 <main>
 	<div class="container mb-2 pt-3">
 		<div class="box">
-			<table>
+			<table class="table">
 				<thead>
 					<tr>
 						<th>학번</th>
@@ -109,8 +109,8 @@ textarea:focus, input:focus { outline: none; }
 		<div class="box">
 			<div class="row justify-content-center">
 				<div class="col-8">
-					<table>
-						<thead>
+					<table class="table table-hover">
+						<thead class="table-light text-center">
 							<tr>
 								<th>학번</th>
 								<th>이름</th>
@@ -176,7 +176,7 @@ textarea:focus, input:focus { outline: none; }
 		<div class="box">
 			<div class="row justify-content-center">
 				<div class="col-8">
-					<table>
+					<table class="table table-bordered">
 						<thead>
 							<tr>
 								<th>학번</th>
@@ -243,7 +243,7 @@ textarea:focus, input:focus { outline: none; }
 		<div class="box">
 			<div class="row justify-content-center">
 				<div class="col-8">
-					<table>
+					<table class="table table-hover table-borderless">
 						<thead>
 							<tr>
 								<th>학번</th>

@@ -48,7 +48,7 @@ textarea:focus, input:focus { outline: none; }
 							<tr>
 								<td class="table-light col-sm-2">이름</td>
 								<td class="text-start">
-									<p class="form-control-plaintext">홍길동</p>
+									<p class="form-control-plaintext">홍길동</p>	<!-- form-control-plaintext : form 형태 높이 맞춰서 -->
 								</td>
 							</tr>
 							

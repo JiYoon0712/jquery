@@ -31,6 +31,7 @@ textarea:focus, input:focus { outline: none; }
 	<nav class="navbar navbar-expand-lg navbar-light"> <!-- fixed-top를 추가하면 상단 고정 -->
 		<div class="container">
 			<a class="navbar-brand" href="#"><i class="bi bi-app-indicator"></i></a>
+			<!-- 화면 축소시 메뉴바 나오게 하는 버튼 -->
 			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
